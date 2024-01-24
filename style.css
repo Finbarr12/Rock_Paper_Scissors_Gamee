@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap");
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body {
+  background: linear-gradient(to right, blue, purple);
+}
+
+.choices {
+  display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.mine {
+  margin-right: 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comp {
+  margin: 0;
+}
+
+.mine p {
+  margin: 0;
+}
+
+.container h1 {
+  color: white;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.container h4 {
+  color: white;
+  font-size: 40px;
+  font-family: "Rubik Burned", system-ui;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock,Paper,scissors Game</h1>
+      <h4>Lets Play</h4>
+      <div class="choices">
+        <div class="mine">
+          <h2>Your choice</h2>
+          <p id="Player-choice"></p>
+        </div>
+        <div class="mine comp">
+          <h2>Computer's Choice</h2>
+          <p id="computer-choice"></p>
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 20px;
+        "
+      >
+        <h6 style="margin: 0; font-size: 20px; color: white">
+          Click your choice:👇
+        </h6>
+        <div style="display: flex">
+          <button onclick="makeChoice('rock')">Rock</button>
+          <button onclick="makeChoice('paper')">Paper</button>
+          <button onclick="makeChoice('scissors')">Scissors</button>
+        </div>
+      </div>
+      <p style="color: white; font-size: 17px; margin: 0%">Results:👇👇</p>
+      <p id="outcome" style="color: white; font-size: 17px"></p>
+    </div>
+  </body>
+  <script src="./game.js"></script>
+</html>
